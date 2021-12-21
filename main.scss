@@ -135,7 +135,7 @@ main{
                           transition: 0.2s;
                           &:hover{
                               color: orange;
-                          }
+                          } 
 
                         }
                     }
@@ -544,15 +544,6 @@ main{
        }
    }
 
-   header{
-       #navbar{
-           .navbar{
-               display: flex;
-           }
-       }
-   }
-
-
    main{
        #bar{
 
@@ -663,6 +654,36 @@ main{
            }
        }
    }
+
+   main{
+       #slider{
+           .info{
+               .title{
+                  
+                      @media screen and(max-width:700px)
+                      {
+                          h3{
+                              font-family: 20px;
+                          }
+                      }
+                      @media screen and(max-width:400px)
+                      {
+                          h3{
+                              font-family: 16px;
+                          }
+                      }
+                      @media screen and(max-width:700px)
+                      {
+                          h3{
+                              font-family: 12px;
+                          }
+                      }
+                   
+               }
+           }
+       }
+   }
+
 
   
    
