@@ -491,20 +491,189 @@ main{
    }
 
 
+   main{
+       .tab-tab{
+           width: 100%;
+           height: 200px;
+           background-color: rgba(243, 243, 243, 0.972);
+           h1{
+            padding: 75px 50px;
+            font-family: "Playfair Display",serif;
+            font-size: 50px;
+           
+           }
+       }
+       #tabmenu{
+           .tabs{
+               margin-top: 75px;
+               display: flex;
+               .tab1{
+                   margin: 40px;
+                   
+               }
+               .tab2{
+                   margin: 40px;
+               }
+           }
+
+       }
+
+       #tabmenu2{
+           margin-top: 200px;
+           .taball{
+               
+               margin: 40px;
+           }
+       }
+
+       #tabmenu3{
+        margin-top: 200px;
+           .tab3{
+              
+               margin: 40px;
+           }
+       }
+   }
+
+   main{
+       .shoplist{
+           #category{
+               margin-top: 120px;
+           }
+
+       }
+   }
+
    header{
        #navbar{
-           .container{
-               .row{
-                   display: flex;
-                   margin-top: 30px;
-                   .navbarimg{
-                       margin-bottom: 25px;
+           .navbar{
+               display: flex;
+           }
+       }
+   }
+
+
+   main{
+       #bar{
+
+        margin-top: 60px;
+        margin-bottom: 250px;
+           
+        
+
+        #Progress_Status {
+            width: 550px;
+            background-color: #757575;
+            height: 4px
+            }
+            
+            #myprogressBar,#myprogressBar2,#myprogressBar3,#myprogressBar4,#myprogressBar5,#myprogressBar6,#myprogressBar7{
+            width: 1%;
+            height: 4px;
+            background-color: #F44F3F;
+            text-align: center;
+            line-height: 32px;
+            color: black;
+            margin-top: 40px;
+            }
+            
+
+       }
+
+       #bar2{
+           margin-top: 250px;
+
+        #Progress_Status {
+            width: 100%;
+            background-color: #757575;
+            height: 4px
+            }
+            
+            #myprogressBar8,#myprogressBar9,#myprogressBar10{
+            width: 1%;
+            height: 4px;
+            background-color: #F44F3F;
+            text-align: center;
+            line-height: 32px;
+            color: black;
+            margin-top: 40px;
+            }
+            
+
+       }
+
+       #tabmenu{
+           .nav-item{
+               li{
+                   button{
+                       &:hover{
+                           background-color: #F44F3F;
+                       }
                    }
-                   
                }
            }
        }
    }
+
+
+   main{
+       #tabmenu{
+           .tabs{
+               #myTabContent{
+                font-family: Lora,serif;
+               }
+               #profile{
+                font-family: Lora,serif;
+               }
+               .contact{
+                font-family: Lora,serif;
+               }
+           }
+        
+
+       }
+
+       #tabmenu2{
+           .taball{
+               #nav-home{
+                font-family: Lora,serif;
+               }
+               #nav-profile{
+                font-family: Lora,serif;
+               }
+               #nav-contact{
+                font-family: Lora,serif;
+               }
+
+           }
+       }
+
+       #tabmenu3{
+           .tab3{
+               #v-pills-home{
+                font-family: Lora,serif;
+               }
+               #v-pills-profile{
+                font-family: Lora,serif;
+               }
+               #v-pills-messages{
+                font-family: Lora,serif;
+               }
+
+           }
+       }
+   }
+
+  
+   
+
+
+
+
+   
+
+
+
      
 
 
