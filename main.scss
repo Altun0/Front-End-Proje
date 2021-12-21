@@ -685,6 +685,26 @@ main{
    }
 
 
+   a{
+    .up {
+        position: fixed;
+        bottom: 35px;
+        right: 35px;
+        width: 40px;
+        height: 40px;
+        background-color: #f34f3f;
+    
+        i {
+            position: absolute;
+            left: 9px;
+            top: 7px;
+            font-size: 30px;
+            color: white;
+        }
+    }
+}
+
+
   
    
 
