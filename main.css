@@ -104,6 +104,151 @@ main #category .cover .product .cardd-header img:hover {
           transform: scale(1.06);
 }
 
+header nav {
+  background-color: white;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  height: 70px;
+}
+
+header nav .container .logo img {
+  width: 205px;
+}
+
+header nav .container .options {
+  padding: 0;
+}
+
+header nav .container .options ul {
+  margin: 0px;
+  padding: 0;
+}
+
+header nav .container .options ul li {
+  list-style: none;
+  padding-right: 8%;
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: 550;
+  color: #1b1b1b;
+  cursor: pointer;
+}
+
+header nav .container .options ul li .second {
+  position: absolute;
+  display: block;
+  height: 0px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+header nav .container .options ul li .second ul {
+  padding-top: 15px;
+}
+
+header nav .container .options ul li .second ul li {
+  padding-bottom: 15px;
+}
+
+header nav .container .options ul li .second ul li a {
+  text-decoration: none;
+  color: #737373;
+}
+
+header nav .container .options ul li:hover .second {
+  margin-top: 25px;
+  height: 283px;
+  width: 150px;
+  visibility: visible;
+  opacity: 1;
+  overflow: visible;
+  background-color: white;
+  padding-left: 15px;
+}
+
+header nav .container .options ul li:hover #pages {
+  margin-top: 25px;
+  height: 130px;
+  width: 150px;
+  visibility: visible;
+  opacity: 1;
+  overflow: visible;
+  background-color: white;
+  padding-left: 15px;
+}
+
+header nav .container .options ul li:hover #shop {
+  margin-top: 25px;
+  padding-top: 17px;
+  height: 370px;
+  width: 90%;
+  visibility: visible;
+  opacity: 1;
+  overflow: visible;
+  background-color: white;
+  padding-left: 15px;
+  left: 5%;
+}
+
+header nav .container .options ul li:hover #portfolio {
+  margin-top: 25px;
+  height: 200px;
+  width: 150px;
+  visibility: visible;
+  opacity: 1;
+  overflow: visible;
+  background-color: white;
+  padding-left: 15px;
+}
+
+header nav .container .options ul li:hover #blog {
+  margin-top: 25px;
+  height: 130px;
+  width: 150px;
+  visibility: visible;
+  opacity: 1;
+  overflow: visible;
+  background-color: white;
+  padding-left: 15px;
+}
+
+header nav .container .options ul li:hover #elements {
+  margin-top: 25px;
+  height: 170px;
+  width: 150px;
+  visibility: visible;
+  opacity: 1;
+  overflow: visible;
+  background-color: white;
+  padding-left: 15px;
+}
+
+header nav .container .mix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+header nav .container .mix .search-icon {
+  padding-right: 25px;
+}
+
+header nav .container .mix .basket-icon {
+  padding-right: 25px;
+}
+
 main #about {
   margin-bottom: 8rem;
 }
@@ -491,7 +636,6 @@ main #orange .container .row .all .oranges2 {
   position: relative;
   width: 100%;
   display: block;
-  width: 100%;
   margin: 0;
   -webkit-margin-before: 1em;
           margin-block-start: 1em;
@@ -502,6 +646,10 @@ main #orange .container .row .all .oranges2 {
   -webkit-margin-end: 40px;
           margin-inline-end: 40px;
   font-family: Montserrat,sans-serif;
+}
+
+main #orange .container .row .all .oranges2 img {
+  height: 632px;
 }
 
 main #orange .container .row .all .amaryliss {
@@ -519,18 +667,262 @@ main #accordion .container .row .accordion5 .accordion2 {
   width: 100%;
 }
 
+main #accordion .container .row .accordion5 .accordion2 button {
+  display: block;
+  line-height: inherit;
+  font-family: Lora, serif;
+}
+
+main #accordion .container .row .accordion5 .accordion2 .flush-collapseOne-3 {
+  font-family: Lora, serif;
+}
+
 main #accordion .container .row .accordion5 .accordion3 {
   width: 100%;
 }
 
-header #navbar .container .row {
+main #accordion .container .row .accordion5 .accordion3 button {
+  display: block;
+  line-height: inherit;
+  font-family: Lora, serif;
+}
+
+main .tab-tab {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(243, 243, 243, 0.972);
+}
+
+main .tab-tab h1 {
+  padding: 75px 50px;
+  font-family: "Playfair Display",serif;
+  font-size: 50px;
+}
+
+main #tabmenu .tabs {
+  margin-top: 75px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30px;
 }
 
-header #navbar .container .row .navbarimg {
-  margin-bottom: 25px;
+main #tabmenu .tabs .tab1 {
+  margin: 40px;
+}
+
+main #tabmenu .tabs .tab2 {
+  margin: 40px;
+}
+
+main #tabmenu2 {
+  margin-top: 200px;
+}
+
+main #tabmenu2 .taball {
+  margin: 40px;
+}
+
+main #tabmenu3 {
+  margin-top: 200px;
+}
+
+main #tabmenu3 .tab3 {
+  margin: 40px;
+}
+
+main .shoplist #category {
+  margin-top: 120px;
+}
+
+main #bar {
+  margin-top: 60px;
+  margin-bottom: 250px;
+}
+
+main #bar #Progress_Status {
+  width: 550px;
+  background-color: #757575;
+  height: 4px;
+}
+
+main #bar #myprogressBar, main #bar #myprogressBar2, main #bar #myprogressBar3, main #bar #myprogressBar4, main #bar #myprogressBar5, main #bar #myprogressBar6, main #bar #myprogressBar7 {
+  width: 1%;
+  height: 4px;
+  background-color: #F44F3F;
+  text-align: center;
+  line-height: 32px;
+  color: black;
+  margin-top: 40px;
+}
+
+main #bar2 {
+  margin-top: 250px;
+}
+
+main #bar2 #Progress_Status {
+  width: 100%;
+  background-color: #757575;
+  height: 4px;
+}
+
+main #bar2 #myprogressBar8, main #bar2 #myprogressBar9, main #bar2 #myprogressBar10 {
+  width: 1%;
+  height: 4px;
+  background-color: #F44F3F;
+  text-align: center;
+  line-height: 32px;
+  color: black;
+  margin-top: 40px;
+}
+
+main #tabmenu .nav-item li button:hover {
+  background-color: #F44F3F;
+}
+
+main #tabmenu .tabs #myTabContent {
+  font-family: Lora,serif;
+}
+
+main #tabmenu .tabs #profile {
+  font-family: Lora,serif;
+}
+
+main #tabmenu .tabs .contact {
+  font-family: Lora,serif;
+}
+
+main #tabmenu2 .taball #nav-home {
+  font-family: Lora,serif;
+}
+
+main #tabmenu2 .taball #nav-profile {
+  font-family: Lora,serif;
+}
+
+main #tabmenu2 .taball #nav-contact {
+  font-family: Lora,serif;
+}
+
+main #tabmenu3 .tab3 #v-pills-home {
+  font-family: Lora,serif;
+}
+
+main #tabmenu3 .tab3 #v-pills-profile {
+  font-family: Lora,serif;
+}
+
+main #tabmenu3 .tab3 #v-pills-messages {
+  font-family: Lora,serif;
+}
+
+a .up {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  width: 40px;
+  height: 40px;
+  background-color: #f34f3f;
+}
+
+a .up i {
+  position: absolute;
+  left: 9px;
+  top: 7px;
+  font-size: 30px;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  #FLowerExpert .expert {
+    width: 100%;
+  }
+  #FLowerExpert .imgs-texts {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #join-bunch .input-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+  }
+  #button-addon2 {
+    margin: auto;
+    margin-left: 130px;
+  }
+  #form-ctrl {
+    width: 206px;
+    margin-left: 75px;
+  }
+  #fromourblog .blogimg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #category .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #category .row img {
+    margin: 15px;
+    padding: 65px;
+  }
+  #category .filter-flower {
+    display: none;
+  }
+  #category .filter {
+    display: none;
+  }
+  #Valentine .valentine {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #Valentine .valentine .video {
+    width: 100%;
+  }
+  #Valentine .valentine i {
+    display: none;
+  }
+  #orange .all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #orange .all .oranges {
+    display: none;
+  }
+  #orange .all .oranges2 {
+    width: 318px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
